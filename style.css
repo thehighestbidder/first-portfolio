@@ -1,0 +1,70 @@
+.glass-water{
+    position: absolute;
+    left: 300px;
+    border-radius:50%;
+}
+.top-container{
+    display: block;
+    background-color: aquamarine;
+    height: 350px;
+    position: relative;
+}
+.img{
+    border-radius: 50%;
+}
+ .profile{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+ }
+ #more{
+    
+    font-style: italic;
+    color: rgb(143, 127, 127);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: medium;
+    
+ }
+#sumo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: x-large;
+    
+}
+html{
+    background-color: bisque;
+}
+.container-4{
+    height: 350px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+  
+}
+.giff{
+    
+    justify-content: flex-start;
+
+}
+p{
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(143, 127, 127);
+}
+.space{
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin: 100px auto 0 auto;
+}
+.container{
+    background-color: aquamarine;
+}
